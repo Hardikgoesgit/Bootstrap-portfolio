@@ -1,0 +1,42 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.min-vh-50 {
+  min-height: 50vh;
+}
+
+.bg-custom-dark {
+  background-color: #0B132B !important;
+}
+
+.bg-custom-blue {
+  background-color: #1C2541 !important;
+}
+
+.bg-custom-medium {
+  background-color: #3A506B !important;
+}
+
+.bg-custom-teal {
+  background-color: #5BC0BE !important;
+}
+
+.bg-custom-white {
+  background-color: #FFFFFF !important;
+}
+
+.text-custom-dark {
+  color: #0B132B !important;
+}
+
+.text-custom-teal {
+  color: #5BC0BE !important;
+}
