@@ -40,3 +40,24 @@ body {
 .text-custom-teal {
   color: #5BC0BE !important;
 }
+
+.typewriter {
+  display: inline-block;
+}
+
+.typewriter .cursor {
+  display: inline-block;
+  margin-left: 3px;
+  animation: blink 1s infinite;
+  color: #5BC0BE;
+  font-weight: 300;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}

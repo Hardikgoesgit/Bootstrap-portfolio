@@ -1,5 +1,6 @@
 import { Typography, Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import Typewriter from '../components/Typewriter';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -14,8 +15,20 @@ const Home = () => {
               <Typography variant="h2" component="h1" gutterBottom className="fw-bold" sx={{ color: '#FFFFFF' }}>
                 Hi, I'm Hardik
               </Typography>
-              <Typography variant="h5" gutterBottom className="mb-3" sx={{ color: '#5BC0BE' }}>
-                Software Engineer
+              <Typography variant="h5" gutterBottom className="mb-3" sx={{ color: '#5BC0BE', minHeight: '40px' }}>
+                <Typewriter 
+                  words={[
+                    'Software Engineer',
+                    'Web Developer',
+                    'Application Developer',
+                    'Full Stack Developer',
+                    'Backend Developer',
+                    'Frontend Developer'
+                  ]}
+                  typingSpeed={100}
+                  deletingSpeed={50}
+                  delayBetweenWords={2000}
+                />
               </Typography>
               <Typography variant="body1" paragraph className="mb-4" sx={{ fontSize: '1.1rem', color: '#FFFFFF' }}>
                 I'm currentlty a student passionate about building applications with an aim to solve real-world problems.

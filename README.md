@@ -141,13 +141,13 @@ The project uses a modern blue-themed color scheme:
 <!-- Add screenshots of your project here -->
 
 ### Home Page
-![Home Page](#)
+![Home Page](images/Screenshot 2026-02-04 at 12.51.51 PM.png)
 
 ### Skills Page
-![Skills Page](#)
+![Skills Page](images/Screenshot 2026-02-04 at 12.52.47 PM.png)
 
 ### Projects Page
-![Projects Page](#)
+![Projects Page](images/Screenshot 2026-02-04 at 12.53.31 PM.png)
 
 ## 🎯 Key Components
 
@@ -175,17 +175,12 @@ To customize the portfolio for your own use:
 4. **Change Colors**: Update the color values in component sx props and CSS files
 5. **Update Branding**: Change "Student Portfolio" in `src/components/Navbar.jsx`
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 👤 Author
 
 **Hardik Kumar**
 
 - Portfolio: [Your Portfolio URL]
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@Hardikgoesgit](https://github.com/Hardikgoesgit)
 
 ## 🤝 Contributing
 
@@ -196,5 +191,3 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ---
-
-Built with ❤️ using React, Material UI, and Bootstrap

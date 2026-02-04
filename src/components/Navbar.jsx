@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark shadow-sm" style={{ backgroundColor: '#1C2541' }}>
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/" style={{ color: '#5BC0BE' }}>
-          Student Portfolio
+            Hardik Kumar
         </Link>
         <button
           className="navbar-toggler"
